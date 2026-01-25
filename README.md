@@ -1,16 +1,34 @@
-# React + Vite
+A modern, responsive, and animated React application built using React, Tailwind CSS, and Framer Motion. This project focuses on clean UI, smooth animations, and best frontend practices.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+✨ Features
+⚛️ Built with React (functional components & hooks)
+🎨 Styled using Tailwind CSS
+🎬 Smooth animations with Framer Motion
+📱 Fully responsive design
+♻️ Reusable components
+🧩 Clean and scalable project structure
 
-Currently, two official plugins are available:
+📂 Project Structure
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+src/
+│
+├── assets/               # Images, icons, fonts
+├── components/           # Reusable UI components
+├── pages/                # Page components
+├── App.jsx               # Root component
+├── main.jsx              # App entry point
+└── index.css             # Global styles
 
-## React Compiler
+Getting Started
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Install Dependencies
+npm install
 
-## Expanding the ESLint configuration
+Start the Development Server
+npm run dev
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+For production
+npm run build
+
+Live Demo  
+https://your-project.vercel.app
