@@ -5,7 +5,6 @@ import {motion} from "motion/react";
 
 const OurWork = () => {
 
-
     const workData = [
         {
             title: 'Mobile app marketing',
@@ -40,7 +39,8 @@ const OurWork = () => {
           that move your business forwrad."
           />
           
-          <div className='grid sm:grid-cols-2 lg:grid-cols-3 gap-6 w-full max-w-5xl'>
+      <div className='grid sm:grid-cols-2 lg:grid-cols-3 gap-6 w-full 
+          max-w-5xl'>
               {
                   workData.map((work, index) => (
                     <motion.div
