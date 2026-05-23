@@ -70,14 +70,16 @@ const ContactUs = () => {
                   <div className='flex pl-3 rounded-lg border border-gray-300
                   dark:border-gray-600'>
                       <img src={assets.email_icon} alt="" />
-                      <input name='email' type="email" placeholder='Enter your email' className='w-full
+                      <input name='email' type="email" placeholder='Enter your email'
+                        className='w-full
                       p-3 text-sm outline-none' required/>
                   </div>
               </div>
 
               <div className='sm:col-span-2'>
                   <p className='mb-2 text-sm font-medium'>Message</p>
-                  <textarea name='message' rows={8} placeholder='Enter your message' className='w-full
+                  <textarea name='message' rows={8} placeholder='Enter your message'
+                    className='w-full
                    p-3 text-sm outline-none rounded-lg border border-gray-300
                     dark:border-gray-600' required/>
               </div>
