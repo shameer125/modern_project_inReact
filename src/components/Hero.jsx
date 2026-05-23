@@ -7,7 +7,8 @@ const Hero = () => {
     <div
       id="hero"
       className="flex flex-col items-center px-4 py-20 gap-6 sm:px-12
-    lg:px-24 xl:px-40 text-center w-full overflow-hidden text-gray-700 dark:text-white"
+    lg:px-24 xl:px-40 text-center w-full overflow-hidden text-gray-700
+    dark:text-white"
     >
 
       <motion.div
@@ -30,8 +31,8 @@ const Hero = () => {
         className="text-4xl sm:text-5xl md:text-6xl
           xl:text-[84px] font-medium xl:leading-[95px] max-w-5xl"
       >
-        Turning imagination into <br /> <span className="bg-gradient-to-r from-[#5044E5] to-[#4d8cea]
-        bg-clip-text text-transparent">digital</span> impact.
+        Turning imagination into <br /> <span className="bg-gradient-to-r from-[#5044E5]
+        to-[#4d8cea] bg-clip-text text-transparent">digital</span> impact.
       </motion.h1>
           
       <motion.p
