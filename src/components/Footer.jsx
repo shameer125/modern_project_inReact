@@ -26,9 +26,12 @@ const Footer = ({theme}) => {
 
                   <ul className='flex gap-8'>
                       <li><a href="#hero" className='hover:text-primary'>Home</a></li>
-                      <li><a href="#services" className='hover:text-primary'>Services</a></li>
-                      <li><a href="#our-work" className='hover:text-primary'>Our work</a></li>
-                      <li><a href="#contact-us" className='hover:text-primary'>Contact us</a></li>
+                      <li><a href="#services" className='hover:text-primary'>Services</a>
+                      </li>
+                      <li><a href="#our-work" className='hover:text-primary'>Our work</a>
+                      </li>
+                      <li><a href="#contact-us" className='hover:text-primary'>Contact us</a>
+                      </li>
                   </ul>
               </motion.div>
 
