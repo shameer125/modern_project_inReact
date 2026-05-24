@@ -1,7 +1,8 @@
 import React from 'react'
 import {motion} from "motion/react";
 
-const Title = ({title, desc}) => {
+const Title = ({ title, desc }) => {
+    
     return (
         <>
             <motion.h2
@@ -17,7 +18,8 @@ const Title = ({title, desc}) => {
             viewport={{once: true}}
             className='max-w-lg text-gray-500 text-center dark:text-white/75 mb-6'>{desc}</motion.p>
         </>
-  )
+    )
+    
 }
 
 export default Title
