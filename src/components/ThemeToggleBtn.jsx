@@ -9,6 +9,7 @@ const ThemeToggleBtn = ({ theme, setTheme }) => {
     }, [])
     
     useEffect(() => {
+        
         if(theme === 'dark')
             document.documentElement.classList.add('dark');
         else {
@@ -28,7 +29,8 @@ const ThemeToggleBtn = ({ theme, setTheme }) => {
               )}
           </button>
       </>
-  )
+    )
+    
 }
 
 export default ThemeToggleBtn
