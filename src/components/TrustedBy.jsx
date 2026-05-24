@@ -3,6 +3,7 @@ import { company_logos } from '../assets/assets'
 import {motion } from "motion/react";
 
 const TrustedBy = () => {
+
   return (
     <motion.div
       initial={{ opacity: 0, y: 30 }}
@@ -36,8 +37,10 @@ const TrustedBy = () => {
             key={index} src={logo} className='max-h-5 sm:max-h-6
            dark:drop-shadow-xl' alt="" />
         ))}
+
       </motion.div>
     </motion.div>
+    
   )
 }
 
