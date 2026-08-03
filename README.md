@@ -52,7 +52,7 @@ src/
 ### 1️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/shameer125/modern-react-landing-page.git
+git clone https://github.com/shameercodes/modern-react-landing-page.git
 ```
 
 ### 2️⃣ Navigate to the Project
